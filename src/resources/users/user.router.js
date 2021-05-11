@@ -11,7 +11,7 @@ router.route('/').get(async (req, res) => {
 
 router.post('/', async (req, res) => {
   const user = await usersService.saveUser(new User(req.body));
-  res.status(201).json(User.toResponse(user))
+  res.status(201).json(User.toResponse(user));
 });
 
 router.get('/:userId', async (req, res) => {
@@ -30,8 +30,8 @@ router.put('/:userId', async (req, res) => {
 })
 
 router.delete('/:userId', async (req, res) => {
-  await usersService.deleteUserById(req.params.userId)
-  res.status(204).end()
+  await usersService.deleteUserById(req.params.userId);
+  res.status(204).end();
 })
 
 module.exports = router;

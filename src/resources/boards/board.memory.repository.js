@@ -25,4 +25,4 @@ const deleteBoardById = async (id) => {
 }
   // TODO: mock implementation. should be replaced during task development
 
-module.exports = { getAll, saveBoard, getBoardById, updateBoardById, deleteBoardById};
+module.exports = { getAll, saveBoard, getBoardById, updateBoardById, deleteBoardById, boards};

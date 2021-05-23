@@ -1,6 +1,6 @@
 const usersRepo = require('./user.memory.repository');
 
-const getAll = () => usersRepo.getAll();
+const getAll = () => usersRepo.getAllUsers();
 const saveUser = (user) => usersRepo.saveUser(user);
 const getUserById = (id) => usersRepo.getUserById(id);
 const updateUserById = (user) => usersRepo.updateUserById(user);

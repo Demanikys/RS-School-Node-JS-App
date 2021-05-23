@@ -1,6 +1,6 @@
 const boardsRepo = require('./board.memory.repository');
 
-const getAll = () => boardsRepo.getAll();
+const getAll = () => boardsRepo.getAllBoards();
 const saveBoard = (board) => boardsRepo.saveBoard(board);
 const getBoardById = (id) => boardsRepo.getBoardById(id);
 const updateBoardById = (board) => boardsRepo.updateBoardById(board);

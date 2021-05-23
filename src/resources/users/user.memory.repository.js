@@ -6,7 +6,7 @@ const users = [];
  * getAll func returns all users in base
  * @returns {Array} array of users 
  */
-const getAll = () => users;
+const getAllUsers = () => users;
 
 /**
  * saveUser func create new user in base
@@ -51,7 +51,7 @@ const deleteUserById = async (id) => {
 };
 
 module.exports = {
-  getAll,
+  getAllUsers,
   saveUser,
   getUserById,
   updateUserById,

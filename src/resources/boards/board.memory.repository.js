@@ -6,7 +6,7 @@ const boards = [];
  * getAll func return all existed boards
  * @returns {Array} array of existed boards
  */
-const getAll = () => boards;
+const getAllBoards = () => boards;
 
 /**
  * saveBoard func create new board
@@ -51,7 +51,7 @@ const deleteBoardById = async (id) => {
 };
 
 module.exports = {
-  getAll,
+  getAllBoards,
   saveBoard,
   getBoardById,
   updateBoardById,

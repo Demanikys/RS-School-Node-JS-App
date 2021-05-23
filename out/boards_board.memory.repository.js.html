@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <title>JSDoc: Source: boards/board.memory.repository.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,32 +17,77 @@
 
 <div id="main">
 
-    <h1 class="page-title">Home</h1>
+    <h1 class="page-title">Source: boards/board.memory.repository.js</h1>
 
     
 
 
 
     
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>const { deleteTasksWithBoard } = require('../tasks/task.service');
 
+const boards = [];
 
-    <h3> </h3>
+/**
+ * getAll func return all existed boards
+ * @returns {Array} array of existed boards
+ */
+const getAllBoards = () => boards;
 
+/**
+ * saveBoard func create new board
+ * @param {Object} board board which need to be created
+ * @returns {Object} created board
+ */
+const saveBoard = (board) => {
+  boards.push(board);
+  return board;
+};
 
+/**
+ * getBoardById func find and return board by id
+ * @param {String} id id of board for search
+ * @returns {Object} found board as Object
+ */
+const getBoardById = async (id) => {
+  const board = await boards.find((item) => item.id === id);
+  return board;
+};
 
+/**
+ * updateBoardById func is looking for board by id and update it with new params
+ * @param {Object} board board which should be updated
+ * @returns {Object} updated board
+ */
+const updateBoardById = async (board) => {
+  const index = await boards.findIndex((item) => item.id === board.id);
+  boards[index] = board;
+  return board;
+};
 
+/**
+ * deleteBoardById func is looking for board by id and delete it with all tasks on it
+ * @param {String} id id of board for delete
+ * @returns {undefined}
+ */
+const deleteBoardById = async (id) => {
+  const index = await boards.findIndex((item) => item.id === id);
+  boards.splice(index, 1);
+  deleteTasksWithBoard(id);
+};
 
-
-
-
-
-
-    
-
-
-
-
-
+module.exports = {
+  getAllBoards,
+  saveBoard,
+  getBoardById,
+  updateBoardById,
+  deleteBoardById,
+};
+</code></pre>
+        </article>
+    </section>
 
 
 

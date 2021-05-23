@@ -4,13 +4,13 @@ const users = [];
 
 /**
  * getAll func returns all users in base
- * @returns {Array} of users 
+ * @returns {Array} array of users 
  */
 const getAll = () => users;
 
 /**
  * saveUser func create new user in base
- * @param {Object} user 
+ * @param {Object} user user which need to be created
  * @returns {Object} created user
  */
 const saveUser = (user) => {
@@ -20,7 +20,7 @@ const saveUser = (user) => {
 
 /**
  * getUserById func find and return user by id
- * @param {String} id 
+ * @param {String} id id of user
  * @returns {Object} user
  */
 const getUserById = async (id) => {
@@ -30,8 +30,8 @@ const getUserById = async (id) => {
 
 /**
  * updateUserById func looking for user with user.id and update it
- * @param {Object} user 
- * @returns {Object} already updated user
+ * @param {Object} user user which should be update
+ * @returns {Object} updated user
  */
 const updateUserById = async (user) => {
   const index = await users.findIndex((item) => item.id === user.id);
@@ -41,7 +41,8 @@ const updateUserById = async (user) => {
 
 /**
  * deleteUserById func delete user with passed id and update tasks
- * @param {string} id 
+ * @param {string} id id of user
+ * @returns {undefined}
  */
 const deleteUserById = async (id) => {
   const index = await users.findIndex((item) => item.id === id);

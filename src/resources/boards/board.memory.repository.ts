@@ -1,6 +1,7 @@
 import { deleteTasksWithBoard } from '../tasks/task.service';
+import { IBoard } from '../../types';
 
-const boards = [];
+const boards: IBoard[] = [];
 
 /**
  * getAll func return all existed boards
@@ -13,7 +14,7 @@ const getAllBoards = () => boards;
  * @param {Object} board board which need to be created
  * @returns {Object} created board
  */
-const saveBoard = (board) => {
+const saveBoard = (board: IBoard) => {
   boards.push(board);
   return board;
 };
@@ -23,7 +24,7 @@ const saveBoard = (board) => {
  * @param {String} id id of board for search
  * @returns {Object} found board as Object
  */
-const getBoardById = async (id) => {
+const getBoardById = async (id: string) => {
   const board = await boards.find((item) => item.id === id);
   return board;
 };
@@ -33,7 +34,7 @@ const getBoardById = async (id) => {
  * @param {Object} board board which should be updated
  * @returns {Object} updated board
  */
-const updateBoardById = async (board) => {
+const updateBoardById = async (board: IBoard) => {
   const index = await boards.findIndex((item) => item.id === board.id);
   boards[index] = board;
   return board;
@@ -44,13 +45,13 @@ const updateBoardById = async (board) => {
  * @param {String} id id of board for delete
  * @returns {undefined}
  */
-const deleteBoardById = async (id) => {
+const deleteBoardById = async (id: string) => {
   const index = await boards.findIndex((item) => item.id === id);
   boards.splice(index, 1);
   deleteTasksWithBoard(id);
 };
 
-export = {
+export {
   getAllBoards,
   saveBoard,
   getBoardById,

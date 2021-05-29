@@ -20,7 +20,7 @@ const saveTask = (task: ITask) => {
 
 /**
  * getTaskById func looking for task by id and return it
- * @param {String} taskId id of task for looking 
+ * @param {String} taskId id of task for looking
  * @returns {Object} task
  */
 const getTaskById = async (taskId: string) => tasks.find((item) => item.id === taskId);

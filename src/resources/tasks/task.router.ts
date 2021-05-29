@@ -2,7 +2,7 @@ import { Router } from 'express';
 import Task from './task.model';
 import * as tasksService from './task.service';
 
-const router = Router()
+const router = Router();
 
 router.route('/').get(async (_, res) => {
   const tasks = await tasksService.getAll();

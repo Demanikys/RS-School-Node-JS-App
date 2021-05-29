@@ -1,5 +1,5 @@
 import * as tasksRepo from './task.memory.repository';
-import { ITask } from '../../types'
+import { ITask } from '../../types';
 
 const getAll = () => tasksRepo.getAllTasks();
 const saveTask = (task: ITask) => tasksRepo.saveTask(task);

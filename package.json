@@ -11,7 +11,7 @@
   "scripts": {
     "start": "ts-node build/server.js",
     "dev": "nodemon",
-    "lint": "eslint --ext .js,.ts --fix src/",
+    "lint": "eslint --ext .ts --fix src/",
     "doc": "./node_modules/.bin/jsdoc -c ./.jsdoc.conf.json",
     "build": "./node_modules/.bin/tsc --build",
     "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace --runInBand",
@@ -42,7 +42,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "src/**/*.ts": [
       "npm run lint"
     ]
   },

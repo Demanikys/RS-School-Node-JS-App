@@ -1,10 +1,10 @@
-import {Router} from 'express';
+import { Router } from 'express';
 import Board from './board.model';
 import * as boardsService from './board.service';
 
-const router = Router()
+const router = Router();
 
-router.route('/').get(async (req, res) => {
+router.route('/').get(async (_, res) => {
   const boards = await boardsService.getAll();
   res.json(boards);
   res.end();
@@ -31,7 +31,9 @@ router.put('/:boardId', async (req, res) => {
 });
 
 router.delete('/:boardId', async (req, res) => {
-  await boardsService.deleteBoardById(req.params.userId);
+  if (req.params.boardId) {
+    await boardsService.deleteBoardById(req.params.boardId);
+  }
   res.status(204).end();
 });
 

@@ -1,21 +1,14 @@
-import { Request, Response } from "express";
+import { Request, Response, Router } from 'express';
+import User from './user.model';
+import * as usersService from './user.service';
+import { IUser } from '../../types';
 
-const router = require('express').Router();
-const User = require('./user.model.ts');
-const usersService = require('./user.service');
+const router = Router();
 
-interface userModel {
-  id: String;
-  name: String;
-  login: String;
-  password: String;
-}
-
-router.route('/').get(async (req: Request, res: Response) => {
-  if (req) null
+router.route('/').get(async (_, res: Response) => {
   const users = await usersService.getAll();
   // map user fields to exclude secret fields like "password"
-  res.json(users.map((user: userModel) => User.toResponse(user)));
+  res.json(users.map((user: IUser) => User.toResponse(user)));
   res.end();
 });
 
@@ -25,7 +18,8 @@ router.post('/', async (req: Request, res: Response) => {
 });
 
 router.get('/:userId', async (req: Request, res: Response) => {
-  const user = await usersService.getUserByIdService(req.params["userId"]);
+  const user = req.params['userId'] ? await usersService.getUserByIdService(req.params['userId']) : null;
+
   if (!user) {
     res.writeHead(404);
     res.end();
@@ -40,8 +34,11 @@ router.put('/:userId', async (req: Request, res: Response) => {
 });
 
 router.delete('/:userId', async (req: Request, res: Response) => {
-  await usersService.deleteUserByIdService(req.params["userId"]);
+  if (req.params['userId']) {
+    await usersService.deleteUserByIdService(req.params['userId']);
+  }
+
   res.status(204).end();
 });
 
-module.exports = router;
+export default router;

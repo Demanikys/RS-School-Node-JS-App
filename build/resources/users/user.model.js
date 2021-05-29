@@ -1,5 +1,4 @@
-"use strict";
-const uuid = require('uuid');
+import uuid from 'uuid';
 class User {
     constructor({ id = uuid.v4(), name = 'USER', login = 'user', password = 'P@55w0rd', } = {}) {
         this.id = id;
@@ -12,4 +11,4 @@ class User {
         return { id, name, login };
     }
 }
-module.exports = User;
+export default User;

@@ -1,4 +1,4 @@
-const { deleteTasksWithBoard } = require('../tasks/task.service');
+import { deleteTasksWithBoard } from '../tasks/task.service';
 
 const boards = [];
 
@@ -50,7 +50,7 @@ const deleteBoardById = async (id) => {
   deleteTasksWithBoard(id);
 };
 
-module.exports = {
+export = {
   getAllBoards,
   saveBoard,
   getBoardById,

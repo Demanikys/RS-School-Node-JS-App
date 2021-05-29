@@ -1,5 +1,3 @@
-"use strict";
-const { updateTaskInUserDelete } = require('../tasks/task.service');
 const users = [];
 /**
  * getAll func returns all users in base
@@ -42,12 +40,6 @@ const updateUserById = async (user) => {
 const deleteUserById = async (id) => {
     const index = await users.findIndex((item) => item.id === id);
     users.splice(index, 1);
-    updateTaskInUserDelete(id);
+    // updateTaskInUserDelete(id);
 };
-module.exports = {
-    getAllUsers,
-    saveUser,
-    getUserById,
-    updateUserById,
-    deleteUserById,
-};
+export { getAllUsers, saveUser, getUserById, updateUserById, deleteUserById, };

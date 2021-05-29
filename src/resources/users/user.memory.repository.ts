@@ -1,26 +1,20 @@
-const { updateTaskInUserDelete } = require('../tasks/task.service');
+// import { updateTaskInUserDelete } from '../tasks/task.service';
+import { IUser } from '../../types';
 
-interface userModel {
-  id: String;
-  name: String;
-  login: String;
-  password: String;
-}
-
-const users: Array<userModel> = [];
+const users: Array<IUser> = [];
 
 /**
  * getAll func returns all users in base
- * @returns {Array} array of users 
+ * @returns {Array} array of users
  */
-const getAllUsers = (): Array<userModel> => users;
+const getAllUsers = (): Array<IUser> => users;
 
 /**
  * saveUser func create new user in base
  * @param {Object} user user which need to be created
  * @returns {Object} created user
  */
-const saveUser = (user: userModel) => {
+const saveUser = (user: IUser) => {
   users.push(user);
   return user;
 };
@@ -30,7 +24,7 @@ const saveUser = (user: userModel) => {
  * @param {String} id id of user
  * @returns {Object} user
  */
-const getUserById = async (id: String) => {
+const getUserById = async (id: string) => {
   const user = await users.find((item) => item.id === id);
   return user;
 };
@@ -40,7 +34,7 @@ const getUserById = async (id: String) => {
  * @param {Object} user user which should be update
  * @returns {Object} updated user
  */
-const updateUserById = async (user: userModel) => {
+const updateUserById = async (user: IUser) => {
   const index = await users.findIndex((item) => item.id === user.id);
   users[index] = user;
   return user;
@@ -51,13 +45,13 @@ const updateUserById = async (user: userModel) => {
  * @param {string} id id of user
  * @returns {undefined}
  */
-const deleteUserById = async (id: String) => {
+const deleteUserById = async (id: string) => {
   const index = await users.findIndex((item) => item.id === id);
   users.splice(index, 1);
-  updateTaskInUserDelete(id);
+  // updateTaskInUserDelete(id);
 };
 
-module.exports = {
+export {
   getAllUsers,
   saveUser,
   getUserById,

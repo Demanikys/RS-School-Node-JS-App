@@ -1,4 +1,4 @@
-import uuid from 'uuid';
+import { v4 as uuid } from 'uuid';
 import { IColumn } from '../../types';
 
 class Board {
@@ -8,12 +8,12 @@ class Board {
 
   columns: IColumn[];
 
-  constructor({ id = uuid.v4(), title = 'Autotest board', columns = [] } = {}) {
+  constructor({ id = uuid(), title = 'Autotest board', columns = [] } = {}) {
     this.id = id;
     this.title = title;
     this.columns = columns.map((item: IColumn) => {
       const column = item;
-      column.id = uuid.v4();
+      column.id = uuid();
       return column;
     });
   }

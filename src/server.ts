@@ -1,4 +1,4 @@
-import { settings } from './common/config';
+import { PORT } from './common/config';
 import app from './app';
 
-app.listen(settings.PORT, () => console.log(`App is running on http://localhost:${settings.PORT}`));
+app.listen(PORT, () => console.log(`App is running on http://localhost:${PORT}`));

@@ -9,7 +9,7 @@
   "description": "REST service starter for RS School",
   "main": "build/server.js",
   "scripts": {
-    "start": "ts-node build/server.js",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node ./build/server.js",
     "dev": "nodemon",
     "lint": "eslint --ext .ts --fix src/",
     "doc": "./node_modules/.bin/jsdoc -c ./.jsdoc.conf.json",
@@ -51,9 +51,11 @@
     "cross-env": "7.0.3",
     "dotenv": "9.0.0",
     "express": "4.17.1",
+    "js-yaml": "^4.1.0",
     "path": "^0.12.7",
     "swagger-ui-express": "4.1.6",
     "uuid": "8.3.2",
+    "uuidv4": "^6.2.8",
     "yamljs": "0.3.0"
   },
   "devDependencies": {

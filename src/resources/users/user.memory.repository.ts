@@ -1,4 +1,4 @@
-// import { updateTaskInUserDelete } from '../tasks/task.service';
+import { updateTaskInUserDelete } from '../tasks/task.service';
 import { IUser } from '../../types';
 
 const users: Array<IUser> = [];
@@ -48,7 +48,7 @@ const updateUserById = async (user: IUser) => {
 const deleteUserById = async (id: string) => {
   const index = await users.findIndex((item) => item.id === id);
   users.splice(index, 1);
-  // updateTaskInUserDelete(id);
+  updateTaskInUserDelete(id);
 };
 
 export {

@@ -1,4 +1,4 @@
-import uuid from 'uuid';
+import { v4 as uuid } from 'uuid';
 
 class Task {
   id: string;
@@ -16,7 +16,7 @@ class Task {
   columnId?: string | null;
 
   constructor({
-    id = uuid.v4(),
+    id = uuid(),
     title = 'Autotest task',
     order = 0,
     description = 'Lorem ipsum',

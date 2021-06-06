@@ -1,4 +1,6 @@
-import express from 'express';
+import express, {
+  NextFunction, Request, Response,
+} from 'express';
 // import swaggerUI from 'swagger-ui-express';
 // import path from 'path';
 // import YAML from 'yamljs';
@@ -27,13 +29,36 @@ app.use('/', (req, res, next) => {
 app.use((req, res, next) => {
   next();
   finished(res, () => {
-    logger(req, res);
+    logger({ req, res });
   });
   // logger(req, res);
+});
+
+app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
+  if (req && res) {
+    console.log('REALY?');
+  }
+  if (err) {
+    res.sendStatus(500);
+    return;
+  }
+  next();
 });
 
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
+
+process.on('uncaughtException', (err) => {
+  logger({ uncaughtException: err });
+});
+
+process.on('unhandledRejection', (reason: { message: string }) => {
+  if (reason) {
+    logger({ unhandledRejection: reason });
+  }
+});
+
+Promise.reject(Error('Oops!'));
 
 export default app;

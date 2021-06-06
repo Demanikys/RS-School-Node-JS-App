@@ -1,12 +1,37 @@
 import { Request, Response } from 'express';
 import fs from 'fs';
 
-const logger = (req: Request, res: Response) => {
+interface IParams {
+    req?: Request,
+    res?: Response,
+    uncaughtException?: Error,
+    unhandledRejection?: { message: string }
+}
+
+// const logger = (req: Request, res: Response, uncaughtException?: Error) => {
+const logger = (params: IParams) => {
+    const {
+        req, res, uncaughtException, unhandledRejection,
+    } = params;
     const date = new Date(Date.now());
-    const log = `${date.toISOString()}\nurl: ${req.url}\nquery params: ${JSON.stringify(req.query)}\nbody: ${JSON.stringify(req.body)}\n${res.statusCode}\n\n\n`;
-    fs.writeFile('logs.txt', log, { flag: 'a+' }, (err) => {
-        if (err) console.log(err);
-    });
+    if (req && res) {
+        const log = `${date.toISOString()}\nurl: ${req.url}\nquery params: ${JSON.stringify(req.query)}\nbody: ${JSON.stringify(req.body)}\n${res.statusCode}\n\n\n`;
+        fs.writeFile('reqLogs.txt', log, { flag: 'a+' }, (err) => {
+            if (err) console.log(err);
+        });
+    }
+
+    if (uncaughtException) {
+        fs.writeFile('errLogs.txt', `${date.toISOString()}\nCatched uncaughtException: ${uncaughtException.message}\n\n\n`, { flag: 'a+' }, (err) => {
+            if (err) console.log(err);
+        });
+    }
+
+    if (unhandledRejection) {
+        fs.writeFile('errLogs.txt', `${date.toISOString()}\nCatched unhandledRejection: ${unhandledRejection.message}\n\n\n`, { flag: 'a+' }, (err) => {
+            if (err) console.log(err);
+        });
+    }
 };
 
 export default logger;

@@ -21,11 +21,30 @@ app.use('/', (req, res, next) => {
 app.use((req, res, next) => {
     next();
     finished(res, () => {
-        logger(req, res);
+        logger({ req, res });
     });
     // logger(req, res);
+});
+app.use((err, req, res, next) => {
+    if (req && res) {
+        console.log('REALY?');
+    }
+    if (err) {
+        res.sendStatus(500);
+        return;
+    }
+    next();
 });
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:boardId/tasks', taskRouter);
+process.on('uncaughtException', (err) => {
+    logger({ uncaughtException: err });
+});
+process.on('unhandledRejection', (reason) => {
+    if (reason) {
+        logger({ unhandledRejection: reason });
+    }
+});
+Promise.reject(Error('Oops!'));
 export default app;

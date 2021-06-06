@@ -31,18 +31,15 @@ app.use((req, res, next) => {
   finished(res, () => {
     logger({ req, res });
   });
-  // logger(req, res);
 });
 
-app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
-  if (req && res) {
-    console.log('REALY?');
-  }
+app.use((err: Error, _req: Request, res: Response, next: NextFunction) => {
   if (err) {
-    res.sendStatus(500);
+    logger({ unhandledError: err });
+    res.status(500).send('Internal Server Error');
     return;
   }
-  next();
+  next(err);
 });
 
 app.use('/users', userRouter);
@@ -59,6 +56,6 @@ process.on('unhandledRejection', (reason: { message: string }) => {
   }
 });
 
-Promise.reject(Error('Oops!'));
+// throw new Error('Custom ERROR!');
 
 export default app;

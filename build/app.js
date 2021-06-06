@@ -23,17 +23,14 @@ app.use((req, res, next) => {
     finished(res, () => {
         logger({ req, res });
     });
-    // logger(req, res);
 });
-app.use((err, req, res, next) => {
-    if (req && res) {
-        console.log('REALY?');
-    }
+app.use((err, _req, res, next) => {
     if (err) {
-        res.sendStatus(500);
+        logger({ unhandledError: err });
+        res.status(500).send('Internal Server Error');
         return;
     }
-    next();
+    next(err);
 });
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);
@@ -46,5 +43,5 @@ process.on('unhandledRejection', (reason) => {
         logger({ unhandledRejection: reason });
     }
 });
-Promise.reject(Error('Oops!'));
+// throw new Error('Custom ERROR!');
 export default app;

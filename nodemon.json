@@ -5,6 +5,6 @@
     "watch": [
         "./src"
     ],
-    "exec": "npm run build && npm start",
+    "exec": "npm run build && docker-compose up",
     "ext": "ts"
 }

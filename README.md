@@ -1,3 +1,11 @@
+# Docker instruction
+
+1. Install docker following instruction: https://docs.docker.com/engine/install/
+2. Start docker desktop
+3. Open terminal and execute "docker-compose up"
+4. App will build and start
+
+
 # RS School REST service
 
 ## Prerequisites

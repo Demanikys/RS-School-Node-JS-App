@@ -4,7 +4,7 @@ services:
     build: .
     ports:
       - ${PORT}:${PORT}
-    image: demanikys/node
+    image: demanikys/my_app
     restart: ${RESTART_POLYCY}
     networks:
       - my-net

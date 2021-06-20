@@ -4,6 +4,7 @@ import express, {
 // import swaggerUI from 'swagger-ui-express';
 // import path from 'path';
 // import YAML from 'yamljs';
+import 'reflect-metadata';
 import { finished } from 'stream';
 import userRouter from './resources/users/user.router';
 import boardRouter from './resources/boards/board.router';

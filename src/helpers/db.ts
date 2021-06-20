@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getConnection, createConnection } from 'typeorm';
 import { config } from '../common/ormconfig';
 
@@ -6,19 +7,18 @@ const connectToDB = async () => {
 
   try {
     connection = getConnection();
+    await connection.runMigrations();
   } catch (error) {
     console.log(error);
   }
 
   try {
     if (connection) {
-      if (!connection.isConnected) {
-        await connection.connect();
+      if (!connection.isConnected) await connection.connect();
       } else {
         await createConnection(config);
       }
       console.log('Connected!!!');
-    }
   } catch (error) {
     console.log('Connection error:', error);
   }

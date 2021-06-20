@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getRepository } from 'typeorm';
 import { User } from '../../entites/user';
 
@@ -7,7 +8,6 @@ import { User } from '../../entites/user';
  */
 const getAllUsers = async (): Promise<User[]> => {
   const userRepository = getRepository(User);
-
   return userRepository.find();
 };
 
@@ -29,11 +29,10 @@ const saveUser = async (user: User) => {
  * @param {String} id id of user
  * @returns {Object} user
  */
-const getUserById = async (id: string): Promise<User | 'NOT_FOUND'> => {
+const getUserById = async (id: string): Promise<User> => {
   const userRepository = getRepository(User);
   const res = await userRepository.findOne(id);
-
-  if (res === undefined) return 'NOT_FOUND';
+  if (!res) return 'NOT_FOUND';
   return res;
 };
 

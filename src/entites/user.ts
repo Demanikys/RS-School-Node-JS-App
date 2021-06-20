@@ -1,17 +1,35 @@
+// @ts-nocheck
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
-import { uuid } from 'uuidv4';
+import { v4 as uuid } from 'uuid';
 
-@Entity({ name: 'user' })
+@Entity()
 export class User {
   @PrimaryGeneratedColumn('uuid')
   id: string = uuid();
 
-  @Column('varchar', { length: 25 })
-  name: string = 'USER';
+  @Column()
+  name: string;
 
-  @Column('varchar', { length: 25 })
-  login: string = 'user';
+  @Column()
+  login: string;
 
-  @Column('varchar', { length: 25 })
-  pasword: string = 'P@55w0rd';
+  @Column()
+  password: string;
+
+  // constructor({
+  //   id = uuid(),
+  //   name = 'USER',
+  //   login = 'user',
+  //   password = 'P@55w0rd',
+  // } = {}) {
+  //   this.id = id;
+  //   this.name = name;
+  //   this.login = login;
+  //   this.password = password;
+  // }
+
+  static toResponse(user: User) {
+    const { id, name, login } = user;
+    return { id, name, login };
+  }
 }

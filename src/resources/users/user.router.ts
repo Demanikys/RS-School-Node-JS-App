@@ -1,36 +1,45 @@
 import { Request, Response, Router } from 'express';
-import User from './user.model';
+// import User from './user.model';
 import * as usersService from './user.service';
-import { IUser } from '../../types';
+import { User } from '../../entites/user';
 
 const router = Router();
 
 router.route('/').get(async (_, res: Response) => {
   const users = await usersService.getAll();
   // map user fields to exclude secret fields like "password"
-  res.json(users.map((user: IUser) => User.toResponse(user)));
+  res.json(users.map((user: User) => User.toResponse(user)));
   res.end();
 });
 
 router.post('/', async (req: Request, res: Response) => {
-  const user = await usersService.saveUserService(new User(req.body));
+  const user = await usersService.saveUserService(req.body);
   res.status(201).json(User.toResponse(user));
 });
 
 router.get('/:userId', async (req: Request, res: Response) => {
-  const user = req.params['userId'] ? await usersService.getUserByIdService(req.params['userId']) : null;
-
-  if (!user) {
-    res.writeHead(404);
-    res.end();
-    return;
+  try {
+    const user = req.params['userId'] ? await usersService.getUserByIdService(req.params['userId']) : null;
+    if (user !== null) {
+      res.status(200).send(User.toResponse(user));
+    }
+  } catch (error) {
+    console.log(error);
   }
-  res.status(200).send(User.toResponse(user));
+
+  res.writeHead(404);
+  res.end('undefined');
 });
 
 router.put('/:userId', async (req: Request, res: Response) => {
-  const user = await usersService.updateUserByIdService(req.body);
-  res.status(200).json(User.toResponse(user));
+  try {
+    const user = await usersService.updateUserByIdService(req.body);
+    if (user !== 'NOT_FOUND') {
+      res.status(200).json(/* User.toResponse(user) */ user);
+    }
+  } catch (error) {
+    console.log(error);
+  }
 });
 
 router.delete('/:userId', async (req: Request, res: Response) => {

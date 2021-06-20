@@ -1,26 +1,23 @@
 import dotenv from 'dotenv';
 import { ConnectionOptions } from 'typeorm';
-// import path from 'path';
-// import { dirname } from 'path/posix';
-// import { fileURLToPath } from 'url';
-
-// const __filename = fileURLToPath(import.meta);
-// const __dirname = dirname(__filename);
+import { Board } from '../entites/board';
+import { Columns } from '../entites/columns';
+import { User } from '../entites/user';
 
 dotenv.config({
   path: '../../.env',
 });
 
 export const config = {
-  synchronize: true,
   type: 'postgres',
-  name: 'my-connection',
-  host: process.env['DB_HOST'],
-  port: process.env['DB_PORT'],
-  username: process.env['DB_USERNAME'],
-  password: process.env['DB_PASSWORD'],
-  database: process.env['DB_NAME'],
+  host: 'host.docker.internal',
+  port: 5432,
+  username: 'postgres',
+  password: 'postgres',
+  database: 'postgres',
+  synchronize: true,
   autoReconnect: true,
   reconnectTries: Number.MAX_VALUE,
   reconnectionInterval: 1000,
+  entities: [User, Board, Columns],
 } as ConnectionOptions;

@@ -1,5 +1,4 @@
 import { Router } from 'express';
-import Task from './task.model';
 import * as tasksService from './task.service';
 
 const router = Router();
@@ -12,7 +11,7 @@ router.route('/').get(async (_, res) => {
 
 router.post('/', async (req, res) => {
   const boardId = req.baseUrl.split('/')[2];
-  const task = await tasksService.saveTask(new Task({ ...req.body, boardId }));
+  const task = await tasksService.saveTask({ ...req.body, boardId });
   res.status(201).json(task);
 });
 

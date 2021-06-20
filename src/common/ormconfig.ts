@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import { ConnectionOptions } from 'typeorm';
-import { Board } from '../entites/board';
-import { Columns } from '../entites/columns';
+import { Board, Columns } from '../entites/board';
+import { Task } from '../entites/tasks';
 import { User } from '../entites/user';
 
 dotenv.config({
@@ -19,5 +19,5 @@ export const config = {
   autoReconnect: true,
   reconnectTries: Number.MAX_VALUE,
   reconnectionInterval: 1000,
-  entities: [User, Board, Columns],
+  entities: [User, Board, Columns, Task],
 } as ConnectionOptions;

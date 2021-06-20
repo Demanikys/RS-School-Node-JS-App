@@ -30,3 +30,7 @@ Catched uncaughtException: listen EADDRINUSE: address already in use :::4000
 Catched uncaughtException: listen EADDRINUSE: address already in use :::4000
 
 
+2021-06-20T20:24:55.149Z
+Catched uncaughtException: ManyToOne is not defined
+
+

@@ -1,8 +1,7 @@
 {
   "name": "rs-rest-service-starter",
   "version": "1.0.0",
-  "target": "esnext",
-  "module": "commonjs",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": ""

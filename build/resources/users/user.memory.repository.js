@@ -1,18 +1,24 @@
-import { updateTaskInUserDelete } from '../tasks/task.service';
-const users = [];
+// @ts-nocheck
+import { getRepository } from 'typeorm';
+import { User } from '../../entites/user';
 /**
  * getAll func returns all users in base
  * @returns {Array} array of users
  */
-const getAllUsers = () => users;
+const getAllUsers = async () => {
+    const userRepository = getRepository(User);
+    return userRepository.find();
+};
 /**
  * saveUser func create new user in base
  * @param {Object} user user which need to be created
  * @returns {Object} created user
  */
-const saveUser = (user) => {
-    users.push(user);
-    return user;
+const saveUser = async (user) => {
+    const userRepository = getRepository(User);
+    const newUser = userRepository.create(user);
+    const savedUser = userRepository.save(newUser);
+    return savedUser;
 };
 /**
  * getUserById func find and return user by id
@@ -20,8 +26,11 @@ const saveUser = (user) => {
  * @returns {Object} user
  */
 const getUserById = async (id) => {
-    const user = await users.find((item) => item.id === id);
-    return user;
+    const userRepository = getRepository(User);
+    const res = await userRepository.findOne(id);
+    if (!res)
+        return 'NOT_FOUND';
+    return res;
 };
 /**
  * updateUserById func looking for user with user.id and update it
@@ -29,9 +38,12 @@ const getUserById = async (id) => {
  * @returns {Object} updated user
  */
 const updateUserById = async (user) => {
-    const index = await users.findIndex((item) => item.id === user.id);
-    users[index] = user;
-    return user;
+    const userRepository = getRepository(User);
+    const res = await userRepository.findOne(user.id);
+    if (res === undefined)
+        return 'NOT_FOUND';
+    const updateRes = await userRepository.update(user.id, user);
+    return updateRes.raw;
 };
 /**
  * deleteUserById func delete user with passed id and update tasks
@@ -39,8 +51,10 @@ const updateUserById = async (user) => {
  * @returns {undefined}
  */
 const deleteUserById = async (id) => {
-    const index = await users.findIndex((item) => item.id === id);
-    users.splice(index, 1);
-    updateTaskInUserDelete(id);
+    const userRepository = getRepository(User);
+    const deletionRes = await userRepository.delete(id);
+    if (deletionRes.affected)
+        return 'DELETED';
+    return 'NOT_FOUND';
 };
 export { getAllUsers, saveUser, getUserById, updateUserById, deleteUserById, };

@@ -5,3 +5,1144 @@ body: {}
 Status code: 404
 
 
+2021-06-25T22:54:12.611Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:12.622Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:12.627Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:12.755Z
+url: /123
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:12.812Z
+url: /login
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 404
+
+
+2021-06-25T22:54:12.844Z
+url: /login
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 404
+
+
+2021-06-25T22:54:12.849Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-25T22:54:12.851Z
+url: /login
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 404
+
+
+2021-06-25T22:54:12.877Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:12.878Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:12.905Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:12.954Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:12.956Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-25T22:54:12.961Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:12.972Z
+url: /a7944fad-fd1e-43a8-a967-69ab5b037bad
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:12.986Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:12.987Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:12.994Z
+url: /a7944fad-fd1e-43a8-a967-69ab5b037bad
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:12.999Z
+url: /bbbf6738-4a37-475f-a6f3-586be3e55ea5
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.012Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.026Z
+url: /f457b76a-9bb5-4078-924b-910e9f88b54b
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.029Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-25T22:54:13.031Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:13.049Z
+url: /ba34c681-7452-4bea-b0b2-7d3d0d192124
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.065Z
+url: /72d720de-fbd7-4821-999e-fe39ecb5870d
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.074Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:13.077Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:13.091Z
+url: /400c266f-390c-49a8-a0a3-3b5cf0bc74d6
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-25T22:54:13.093Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-25T22:54:13.099Z
+url: /e7fb0df4-f331-4abd-b20e-f44e181076f7
+query params: {}
+body: {"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"b3241a03-1cc7-4315-a67a-9a30a1397a51","columnId":null,"id":"e7fb0df4-f331-4abd-b20e-f44e181076f7"}
+Status code: 200
+
+
+2021-06-25T22:54:13.111Z
+url: /e7fb0df4-f331-4abd-b20e-f44e181076f7
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.115Z
+url: /e2bca6a1-0955-4640-a2c3-a5be408ee829
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"e2bca6a1-0955-4640-a2c3-a5be408ee829"}
+Status code: 200
+
+
+2021-06-25T22:54:13.127Z
+url: /bbbf6738-4a37-475f-a6f3-586be3e55ea5
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.131Z
+url: /e2bca6a1-0955-4640-a2c3-a5be408ee829
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.128Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:13.142Z
+url: /bbbf6738-4a37-475f-a6f3-586be3e55ea5
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.157Z
+url: /bbbf6738-4a37-475f-a6f3-586be3e55ea5
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.158Z
+url: /e2bca6a1-0955-4640-a2c3-a5be408ee829
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.171Z
+url: /b3241a03-1cc7-4315-a67a-9a30a1397a51
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-25T22:54:13.184Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-25T22:54:13.186Z
+url: /63e4cead-757c-46a6-bc23-7b6fc991177d
+query params: {}
+body: {"id":"63e4cead-757c-46a6-bc23-7b6fc991177d","title":"Autotest updated board","columns":[{"id":"3abbcc55-8ba3-4b8d-b8ac-a25e88b076b4","title":"Backlog","order":1},{"id":"4a51f6ea-c07f-43a4-b6c9-68265168819f","title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-25T22:54:13.196Z
+url: /63e4cead-757c-46a6-bc23-7b6fc991177d
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.201Z
+url: /fa6876a2-ff78-4608-b34d-15522df026a9
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.226Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-25T22:54:13.240Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:13.251Z
+url: /f773b0df-2cfc-4288-86b3-68abf059a4aa
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-25T22:54:13.253Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:13.261Z
+url: /f773b0df-2cfc-4288-86b3-68abf059a4aa
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.281Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"3e190fe9-ab89-4b65-b30d-dcd4182c084e","boardId":"7949ef40-7478-4e04-b51f-f435e52186bf"}
+Status code: 201
+
+
+2021-06-25T22:54:13.283Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"3e190fe9-ab89-4b65-b30d-dcd4182c084e","boardId":"7949ef40-7478-4e04-b51f-f435e52186bf"}
+Status code: 201
+
+
+2021-06-25T22:54:13.304Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:13.307Z
+url: /3e190fe9-ab89-4b65-b30d-dcd4182c084e
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.327Z
+url: /412f501e-957e-45a6-a673-07e69a24cea3
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.345Z
+url: /
+query params: {}
+body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"41eab99a-43e1-4c7f-b121-fcb72404fbbf","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:13.350Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"41eab99a-43e1-4c7f-b121-fcb72404fbbf","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:13.353Z
+url: /
+query params: {}
+body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"41eab99a-43e1-4c7f-b121-fcb72404fbbf","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:13.364Z
+url: /1041b639-da3d-461f-a237-b20a008e6fd6
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.365Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"41eab99a-43e1-4c7f-b121-fcb72404fbbf","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:13.374Z
+url: /
+query params: {}
+body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"41eab99a-43e1-4c7f-b121-fcb72404fbbf","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:13.376Z
+url: /1041b639-da3d-461f-a237-b20a008e6fd6
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.378Z
+url: /412f501e-957e-45a6-a673-07e69a24cea3
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-25T22:54:13.401Z
+url: /6d473abb-3209-47fa-ae65-45372e4c3a10
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.402Z
+url: /91644937-72f7-4adf-9cd5-7b19d01203c8
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.403Z
+url: /6a20b064-edda-4058-bd0a-fdf796dea51b
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.405Z
+url: /feb60f51-5479-48df-9119-889a1a9b0390
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.408Z
+url: /88c858b1-d619-47a0-a590-adad28246240
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:13.409Z
+url: /7949ef40-7478-4e04-b51f-f435e52186bf
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-25T22:54:13.457Z
+url: /41eab99a-43e1-4c7f-b121-fcb72404fbbf
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-25T22:54:13.481Z
+url: /6d473abb-3209-47fa-ae65-45372e4c3a10
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.482Z
+url: /91644937-72f7-4adf-9cd5-7b19d01203c8
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.484Z
+url: /feb60f51-5479-48df-9119-889a1a9b0390
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.483Z
+url: /6a20b064-edda-4058-bd0a-fdf796dea51b
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.485Z
+url: /88c858b1-d619-47a0-a590-adad28246240
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-25T22:54:13.499Z
+url: /f457b76a-9bb5-4078-924b-910e9f88b54b
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-25T22:54:17.793Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-25T22:54:17.795Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-25T22:54:28.372Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:28.372Z
+url: /12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 200
+
+
+2021-06-25T22:54:28.373Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:28.371Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:28.373Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-25T22:54:28.373Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-25T22:54:28.373Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 200
+
+
+2021-06-25T22:54:28.374Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.613Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T11:17:09.623Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.634Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.640Z
+url: /e5365cc8-5823-41d4-8b76-23287be1cc37
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.659Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T11:17:09.668Z
+url: /51d7c5d9-7f43-4ad9-a6bb-bbdefe94023f
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T11:17:09.683Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T11:17:09.701Z
+url: /d6ebf638-b41a-41df-8148-b249dd4b9a73
+query params: {}
+body: {"id":"d6ebf638-b41a-41df-8148-b249dd4b9a73","title":"Autotest updated board","columns":[{"id":"80d99dfd-4d34-40a8-b44f-b5b074b2a30d","title":"Backlog","order":1},{"id":"401e0214-76a4-4dc4-8538-11434be0dc89","title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-26T11:17:09.705Z
+url: /d6ebf638-b41a-41df-8148-b249dd4b9a73
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.722Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T11:17:09.728Z
+url: /6c241677-68b0-496f-b0e7-b07e411befe7
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T11:17:09.732Z
+url: /6c241677-68b0-496f-b0e7-b07e411befe7
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:09.744Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T11:17:09.759Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"2371f4fc-2413-4fe9-8479-b285164f0ad3","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:09.768Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"2371f4fc-2413-4fe9-8479-b285164f0ad3","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:09.770Z
+url: /
+query params: {}
+body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"2371f4fc-2413-4fe9-8479-b285164f0ad3","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:09.771Z
+url: /
+query params: {}
+body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"2371f4fc-2413-4fe9-8479-b285164f0ad3","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:09.772Z
+url: /
+query params: {}
+body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"2371f4fc-2413-4fe9-8479-b285164f0ad3","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:09.786Z
+url: /ae225fc1-985c-4a4d-a378-57b12859682f
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.787Z
+url: /6afdef4c-8746-4b0c-8333-f808386af394
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.788Z
+url: /045b46c9-a0cc-4546-b089-7fa2668899d6
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.786Z
+url: /504a3dd9-0b8b-42f2-8dbb-6e1d754a11d5
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.788Z
+url: /4e4fab37-40c2-4bc4-a1be-498fd1eb222e
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:09.794Z
+url: /2371f4fc-2413-4fe9-8479-b285164f0ad3
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T11:17:09.804Z
+url: /4e4fab37-40c2-4bc4-a1be-498fd1eb222e
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:09.805Z
+url: /ae225fc1-985c-4a4d-a378-57b12859682f
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:09.805Z
+url: /504a3dd9-0b8b-42f2-8dbb-6e1d754a11d5
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:09.806Z
+url: /6afdef4c-8746-4b0c-8333-f808386af394
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:09.808Z
+url: /045b46c9-a0cc-4546-b089-7fa2668899d6
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:09.814Z
+url: /e5365cc8-5823-41d4-8b76-23287be1cc37
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T11:17:10.039Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.059Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T11:17:10.065Z
+url: /b5ef9a62-22ea-4315-8b38-08c841e5f542
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:10.072Z
+url: /b5ef9a62-22ea-4315-8b38-08c841e5f542
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.082Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T11:17:10.089Z
+url: /077aaee9-71bf-46ae-8a0a-912a03559159
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.098Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T11:17:10.107Z
+url: /4f7238d6-4337-437d-9a32-e8c30ec3b6d6
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"4f7238d6-4337-437d-9a32-e8c30ec3b6d6"}
+Status code: 200
+
+
+2021-06-26T11:17:10.111Z
+url: /4f7238d6-4337-437d-9a32-e8c30ec3b6d6
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:10.118Z
+url: /4f7238d6-4337-437d-9a32-e8c30ec3b6d6
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.126Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T11:17:10.132Z
+url: /7584a948-c1bf-427c-ab5b-b14bc2428e58
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.141Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T11:17:10.152Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T11:17:10.160Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"1400f1b1-5f63-4bba-9f5f-437f207a2038","boardId":"f45b6612-7bb2-4b93-9ea3-6307336ba421"}
+Status code: 201
+
+
+2021-06-26T11:17:10.161Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"1400f1b1-5f63-4bba-9f5f-437f207a2038","boardId":"f45b6612-7bb2-4b93-9ea3-6307336ba421"}
+Status code: 201
+
+
+2021-06-26T11:17:10.169Z
+url: /1400f1b1-5f63-4bba-9f5f-437f207a2038
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.174Z
+url: /c27d619d-9911-44f5-82f6-9c50aa568d4c
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.178Z
+url: /12a05b6a-7707-4303-8de8-f52d7f586ef5
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.183Z
+url: /12a05b6a-7707-4303-8de8-f52d7f586ef5
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.184Z
+url: /c27d619d-9911-44f5-82f6-9c50aa568d4c
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.190Z
+url: /f45b6612-7bb2-4b93-9ea3-6307336ba421
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T11:17:10.404Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T11:17:10.413Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:10.419Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.426Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.430Z
+url: /61954c12-08cb-4d97-8f2f-04051243f8b0
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.438Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:10.444Z
+url: /6b535241-b090-49f5-8515-89f2ae152fbc
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.453Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T11:17:10.459Z
+url: /cee01237-521a-404c-b7da-f56cbaa3ffa6
+query params: {}
+body: {"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"71c8b527-8c90-4ed7-870d-73a23cef8b6f","columnId":null,"id":"cee01237-521a-404c-b7da-f56cbaa3ffa6"}
+Status code: 200
+
+
+2021-06-26T11:17:10.464Z
+url: /cee01237-521a-404c-b7da-f56cbaa3ffa6
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.468Z
+url: /61954c12-08cb-4d97-8f2f-04051243f8b0
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T11:17:10.473Z
+url: /61954c12-08cb-4d97-8f2f-04051243f8b0
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T11:17:10.478Z
+url: /61954c12-08cb-4d97-8f2f-04051243f8b0
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:17:10.483Z
+url: /71c8b527-8c90-4ed7-870d-73a23cef8b6f
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T11:20:36.450Z
+url: /
+query params: {}
+body: {"name":"admin","login":"admin","password":"admin"}
+Status code: 201
+
+
+2021-06-26T11:22:20.971Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:22:52.124Z
+url: /favicon.ico
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T11:26:22.617Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:26:53.183Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:27:27.344Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:28:11.979Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:29:21.828Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:29:33.349Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:30:16.378Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:31:49.674Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T11:34:09.401Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T11:38:47.489Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+

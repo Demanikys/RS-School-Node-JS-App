@@ -1,6 +1,7 @@
 // @ts-nocheck
 import { getRepository } from 'typeorm';
 import { User } from '../../entites/user';
+import { updateTaskInUserDelete } from '../tasks/task.memory.repository';
 /**
  * getAll func returns all users in base
  * @returns {Array} array of users
@@ -53,8 +54,10 @@ const updateUserById = async (user) => {
 const deleteUserById = async (id) => {
     const userRepository = getRepository(User);
     const deletionRes = await userRepository.delete(id);
-    if (deletionRes.affected)
+    if (deletionRes.affected) {
+        await updateTaskInUserDelete(id);
         return 'DELETED';
+    }
     return 'NOT_FOUND';
 };
 export { getAllUsers, saveUser, getUserById, updateUserById, deleteUserById, };

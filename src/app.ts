@@ -10,6 +10,7 @@ import userRouter from './resources/users/user.router';
 import boardRouter from './resources/boards/board.router';
 import taskRouter from './resources/tasks/task.router';
 import logger from './middlewares/logger';
+import loginRouter from './resources/login/login.router';
 
 const app = express();
 
@@ -42,6 +43,7 @@ app.use((err: Error, _req: Request, res: Response, next: NextFunction) => {
   }
   next(err);
 });
+app.use('/login', loginRouter);
 
 app.use('/users', userRouter);
 app.use('/boards', boardRouter);

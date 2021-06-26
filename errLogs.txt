@@ -34,3 +34,91 @@ Catched uncaughtException: listen EADDRINUSE: address already in use :::4000
 Catched uncaughtException: ManyToOne is not defined
 
 
+2021-06-25T22:54:12.757Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:12.807Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:12.972Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-25T22:54:13.131Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-25T22:54:17.802Z
+Catched unhandledRejection: Empty criteria(s) are not allowed for the update method.
+
+
+2021-06-25T22:54:17.807Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:17.876Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:22.824Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:22.826Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-26T11:17:10.065Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T11:17:10.111Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T11:20:53.591Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:22:46.726Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:23:11.514Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:26:25.228Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:29:21.832Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:29:33.358Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:30:16.382Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:31:18.249Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:32:36.181Z
+Catched unhandledRejection: secretOrPrivateKey must have a value
+
+
+2021-06-26T11:34:09.404Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T11:38:47.489Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+

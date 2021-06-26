@@ -1,7 +1,10 @@
 // @ts-nocheck
 import { getRepository } from 'typeorm';
+import bcrypt from 'bcrypt';
+import dotenv from 'dotenv';
 import { User } from '../../entites/user';
 import { updateTaskInUserDelete } from '../tasks/task.memory.repository';
+dotenv.config();
 /**
  * getAll func returns all users in base
  * @returns {Array} array of users
@@ -16,8 +19,14 @@ const getAllUsers = async () => {
  * @returns {Object} created user
  */
 const saveUser = async (user) => {
+    const savingUser = user;
+    await bcrypt.hash(savingUser.password, 10, (err, hash) => {
+        savingUser.password = hash;
+        if (err)
+            console.log(err);
+    });
     const userRepository = getRepository(User);
-    const newUser = userRepository.create(user);
+    const newUser = userRepository.create(savingUser);
     const savedUser = userRepository.save(newUser);
     return savedUser;
 };

@@ -1146,3 +1146,3377 @@ body: {"login":"admin","password":"admin"}
 Status code: 403
 
 
+2021-06-26T20:41:32.750Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:41:32.754Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-26T20:41:59.106Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:41:59.128Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.173Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:41:59.189Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:41:59.200Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.208Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:41:59.216Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:41:59.224Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:41:59.230Z
+url: /undefined
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:41:59.238Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:41:59.242Z
+url: /undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.259Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:41:59.269Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:41:59.282Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.287Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:41:59.291Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:41:59.294Z
+url: /undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:41:59.300Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:41:59.307Z
+url: /undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.310Z
+url: /undefined
+query params: {}
+body: {"title":"Autotest updated board"}
+Status code: 401
+
+
+2021-06-26T20:41:59.320Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:41:59.330Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:41:59.337Z
+url: /undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.385Z
+url: /undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.395Z
+url: /undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:41:59.404Z
+url: /undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:41:59.414Z
+url: /undefined/tasks/undefined
+query params: {}
+body: {"title":"Autotest updated task"}
+Status code: 401
+
+
+2021-06-26T20:41:59.430Z
+url: /undefined/tasks/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:41:59.442Z
+url: /undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:42:24.675Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.678Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.679Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.680Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 200
+
+
+2021-06-26T20:42:24.681Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 200
+
+
+2021-06-26T20:42:24.685Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.686Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 200
+
+
+2021-06-26T20:42:24.687Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.688Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 200
+
+
+2021-06-26T20:42:24.688Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-26T20:42:24.689Z
+url: /123
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.690Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.691Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.691Z
+url: /12345
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T20:42:24.692Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-26T20:43:36.524Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.540Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.543Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.550Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.587Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.589Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.591Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.598Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.601Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.604Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:43:36.607Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.610Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.615Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:43:36.618Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.627Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.711Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:43:36.733Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.742Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.751Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:43:36.765Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:43:36.777Z
+url: /users
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.785Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.820Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:43:36.831Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.868Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.875Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.881Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.887Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.894Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.900Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.906Z
+url: /boards/undefined
+query params: {}
+body: {"title":"Autotest updated board"}
+Status code: 401
+
+
+2021-06-26T20:43:36.913Z
+url: /users/undefined
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.919Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.925Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.930Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.933Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:43:36.941Z
+url: /users/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.948Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:43:36.950Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.960Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:43:36.963Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:43:36.971Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {"title":"Autotest updated task"}
+Status code: 401
+
+
+2021-06-26T20:43:36.979Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:43:36.986Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.549Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.597Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.600Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.602Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.609Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:47:20.619Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:47:20.628Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.626Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.629Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.645Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:47:20.650Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:47:20.643Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.652Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:47:20.658Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:47:20.662Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.664Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:47:20.678Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.688Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.690Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.687Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.700Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:47:20.706Z
+url: /users
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.714Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.722Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.788Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.793Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:47:20.798Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.805Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:47:20.811Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:47:20.818Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.820Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:47:20.829Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:47:20.832Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {"title":"Autotest updated task"}
+Status code: 401
+
+
+2021-06-26T20:47:20.834Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.861Z
+url: /users/undefined
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:47:20.864Z
+url: /boards/undefined
+query params: {}
+body: {"title":"Autotest updated board"}
+Status code: 401
+
+
+2021-06-26T20:47:20.867Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.880Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:47:20.886Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.888Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.898Z
+url: /users/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.905Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:47:20.914Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:47:20.924Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:49:34.141Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:50:51.726Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 401
+
+
+2021-06-26T20:51:46.734Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 401
+
+
+2021-06-26T20:53:02.328Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 200
+
+
+2021-06-26T20:53:25.747Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.770Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.785Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:25.795Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:25.803Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.824Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.845Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:53:25.849Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.860Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:53:25.869Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:25.881Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:53:25.885Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.888Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:53:25.896Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.910Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:25.917Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.924Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:53:25.935Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T20:53:25.941Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.949Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.961Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:53:25.965Z
+url: /users
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.972Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:53:25.979Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:25.992Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:26.002Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:26.012Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:26.021Z
+url: /boards/undefined
+query params: {}
+body: {"title":"Autotest updated board"}
+Status code: 401
+
+
+2021-06-26T20:53:26.030Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:26.036Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:26.045Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T20:53:26.051Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:53:26.057Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:26.061Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:53:26.071Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T20:53:26.104Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:53:26.114Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {"title":"Autotest updated task"}
+Status code: 401
+
+
+2021-06-26T20:53:26.119Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:53:26.130Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:26.135Z
+url: /users/undefined
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:53:26.147Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:26.155Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T20:53:26.162Z
+url: /users/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T20:53:26.181Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.690Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.750Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.754Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.767Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:01:51.779Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:01:51.781Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.795Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.799Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.805Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:01:51.808Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.819Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.834Z
+url: /users
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.830Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.839Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:01:51.847Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.850Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:01:51.859Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:51.866Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:51.870Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:01:51.874Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:51.884Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:51.888Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.892Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.901Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.934Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.944Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.953Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.961Z
+url: /users/undefined
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.969Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:51.976Z
+url: /users/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.982Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.984Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:51.994Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:51.998Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:01:52.007Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:01:52.014Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:52.022Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:01:52.032Z
+url: /boards/undefined
+query params: {}
+body: {"title":"Autotest updated board"}
+Status code: 401
+
+
+2021-06-26T21:01:52.039Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {"title":"Autotest updated task"}
+Status code: 401
+
+
+2021-06-26T21:01:52.046Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:52.052Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:52.058Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:01:52.066Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:01:52.073Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.729Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.738Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.751Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.760Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:02:41.762Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.767Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:02:41.772Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:41.776Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.780Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:41.786Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.890Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.914Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:41.923Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:02:41.932Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:02:41.940Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.442Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:02:42.454Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:02:42.474Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:02:42.485Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:42.493Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:42.500Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:02:42.539Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.545Z
+url: /users
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.554Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.615Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.624Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:42.630Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:02:42.635Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.637Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:42.646Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:02:42.653Z
+url: /boards/undefined
+query params: {}
+body: {"title":"Autotest updated board"}
+Status code: 401
+
+
+2021-06-26T21:02:42.659Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:02:42.661Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:02:42.669Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:42.676Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:02:42.678Z
+url: /users/undefined
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:02:42.687Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:02:42.694Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {"title":"Autotest updated task"}
+Status code: 401
+
+
+2021-06-26T21:02:42.696Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:02:42.708Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.713Z
+url: /users/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.716Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.726Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:02:42.733Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.290Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.314Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.365Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:05:32.375Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:05:32.382Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.422Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.443Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.461Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.466Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.475Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.480Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.488Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.491Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.504Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.507Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.517Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:05:32.553Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:05:32.568Z
+url: /users
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.582Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:05:32.597Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.605Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:05:32.617Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.624Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.643Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.672Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.682Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.693Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.701Z
+url: /users/undefined
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.709Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.715Z
+url: /users/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.724Z
+url: /boards/undefined/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.733Z
+url: /users
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:05:32.736Z
+url: /boards
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.744Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:05:32.750Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.760Z
+url: /boards/undefined/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:05:32.768Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.777Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {"title":"Autotest updated task"}
+Status code: 401
+
+
+2021-06-26T21:05:32.781Z
+url: /boards/undefined
+query params: {}
+body: {"title":"Autotest updated board"}
+Status code: 401
+
+
+2021-06-26T21:05:32.793Z
+url: /boards/undefined/tasks/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.797Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.807Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:05:32.816Z
+url: /boards
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:05:32.824Z
+url: /boards/undefined
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.153Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.177Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.215Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:06:24.243Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:06:24.250Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.297Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:06:24.323Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:06:24.359Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:06:24.362Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.364Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.388Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.392Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.405Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:06:24.408Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:06:24.430Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:06:24.432Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:06:24.441Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.446Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:06:24.445Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:06:24.448Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:06:24.451Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.481Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.500Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:06:24.502Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:24.504Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.523Z
+url: /406f81c8-6398-427f-8dde-73f4ab470ce7
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:24.532Z
+url: /1ae589f4-819c-4961-bcf0-cd100e90f664
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.542Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.566Z
+url: /406f81c8-6398-427f-8dde-73f4ab470ce7
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:24.568Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.592Z
+url: /69d7018b-93a3-4200-9e35-60cc9f25ee0f
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.595Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:06:24.607Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:06:24.621Z
+url: /62ee33b7-7217-4636-b500-14f0074348d6
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:06:24.626Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:24.632Z
+url: /4d09e7fa-e4d1-4d69-a062-fd820594d5b7
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:24.647Z
+url: /2b6ce408-88d6-45bd-a079-c00424b557e6
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:24.666Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:06:24.667Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:06:24.670Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:24.692Z
+url: /acabfe1f-a78a-4a82-8c8b-96c6fa1111d6
+query params: {}
+body: {"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"74d4faa5-3c8c-46bb-9596-4293f3ca787c","columnId":null,"id":"acabfe1f-a78a-4a82-8c8b-96c6fa1111d6"}
+Status code: 200
+
+
+2021-06-26T21:06:24.697Z
+url: /2a8c8aed-e6ee-4373-aeb9-f347efa1767f
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"2a8c8aed-e6ee-4373-aeb9-f347efa1767f"}
+Status code: 200
+
+
+2021-06-26T21:06:24.707Z
+url: /acabfe1f-a78a-4a82-8c8b-96c6fa1111d6
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.719Z
+url: /2a8c8aed-e6ee-4373-aeb9-f347efa1767f
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:24.729Z
+url: /69d7018b-93a3-4200-9e35-60cc9f25ee0f
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.747Z
+url: /69d7018b-93a3-4200-9e35-60cc9f25ee0f
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:24.746Z
+url: /2a8c8aed-e6ee-4373-aeb9-f347efa1767f
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:24.749Z
+url: /e3c79e71-ad43-4ded-8db5-8498aabc651b
+query params: {}
+body: {"id":"e3c79e71-ad43-4ded-8db5-8498aabc651b","title":"Autotest updated board","columns":[{"id":"aba9c472-7795-4834-9dec-9b51dfc02e34","title":"Backlog","order":1},{"id":"cff3e997-058c-4cbf-9430-d329e8a5a2fe","title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-26T21:06:24.766Z
+url: /69d7018b-93a3-4200-9e35-60cc9f25ee0f
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:24.768Z
+url: /e3c79e71-ad43-4ded-8db5-8498aabc651b
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:24.780Z
+url: /74d4faa5-3c8c-46bb-9596-4293f3ca787c
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:06:24.783Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:06:24.844Z
+url: /0e17a122-6196-47cf-b2a8-1b64a4380fe2
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:24.879Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:06:24.881Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:06:24.911Z
+url: /37ddc9ed-b2c7-4fb3-812a-d2040a639855
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:06:24.928Z
+url: /37ddc9ed-b2c7-4fb3-812a-d2040a639855
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:24.949Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:06:24.980Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:06:24.987Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"f0dc425e-e88b-49e2-8630-ee4f783649b7","boardId":"9cff07d6-a769-4946-9995-47ae2cf4638c"}
+Status code: 201
+
+
+2021-06-26T21:06:24.989Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"f0dc425e-e88b-49e2-8630-ee4f783649b7","boardId":"9cff07d6-a769-4946-9995-47ae2cf4638c"}
+Status code: 201
+
+
+2021-06-26T21:06:25.041Z
+url: /f0dc425e-e88b-49e2-8630-ee4f783649b7
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:25.056Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"8d571323-c2e2-4cf0-b1f4-024ce0b5266e","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:25.060Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"8d571323-c2e2-4cf0-b1f4-024ce0b5266e","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:25.062Z
+url: /0b75a384-1ff7-4eb1-b5e3-80dc32775108
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:25.086Z
+url: /
+query params: {}
+body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"8d571323-c2e2-4cf0-b1f4-024ce0b5266e","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:25.088Z
+url: /9b5d81ff-e736-49bb-9435-45631fe68428
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:25.091Z
+url: /
+query params: {}
+body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"8d571323-c2e2-4cf0-b1f4-024ce0b5266e","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:25.111Z
+url: /
+query params: {}
+body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"8d571323-c2e2-4cf0-b1f4-024ce0b5266e","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:06:25.112Z
+url: /0b75a384-1ff7-4eb1-b5e3-80dc32775108
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:25.120Z
+url: /9b5d81ff-e736-49bb-9435-45631fe68428
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:06:25.164Z
+url: /9cff07d6-a769-4946-9995-47ae2cf4638c
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:06:25.166Z
+url: /63f49a9d-8d1e-4a14-8117-3c15899fc99c
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:25.168Z
+url: /11d82527-2570-46ec-9047-9dad39569eba
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:25.169Z
+url: /4d7ae2b0-4ff8-4832-a2bb-1e943cfa0f00
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:25.170Z
+url: /3d0e36e4-b369-472f-999b-ed68d3c442b1
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:25.173Z
+url: /3fae602e-b694-4f72-b844-2dc1eb3e1a3e
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:06:25.190Z
+url: /8d571323-c2e2-4cf0-b1f4-024ce0b5266e
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:06:25.276Z
+url: /63f49a9d-8d1e-4a14-8117-3c15899fc99c
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:25.249Z
+url: /4d7ae2b0-4ff8-4832-a2bb-1e943cfa0f00
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:25.315Z
+url: /11d82527-2570-46ec-9047-9dad39569eba
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:25.317Z
+url: /3d0e36e4-b369-472f-999b-ed68d3c442b1
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:25.319Z
+url: /3fae602e-b694-4f72-b844-2dc1eb3e1a3e
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:06:25.337Z
+url: /1ae589f4-819c-4961-bcf0-cd100e90f664
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:09:36.156Z
+url: /12345/tasks
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.174Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.213Z
+url: /12345/tasks
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:09:36.215Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.217Z
+url: /
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.221Z
+url: /12345/tasks/12345
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 401
+
+
+2021-06-26T21:09:36.228Z
+url: /12345/tasks/12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.236Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.238Z
+url: /123
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.245Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:09:36.248Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:09:36.253Z
+url: /12345
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 401
+
+
+2021-06-26T21:09:36.257Z
+url: /12345
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 401
+
+
+2021-06-26T21:09:36.260Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.264Z
+url: /12345
+query params: {}
+body: {}
+Status code: 401
+
+
+2021-06-26T21:09:36.715Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:09:36.782Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:09:36.789Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:09:36.796Z
+url: /
+query params: {}
+body: {"login":"admin","password":"admin"}
+Status code: 403
+
+
+2021-06-26T21:09:36.811Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:36.829Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:36.839Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:36.840Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:09:36.867Z
+url: /245a7325-8f62-42a8-989e-0d5c707b7443
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:36.875Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:36.882Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:09:36.899Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:36.903Z
+url: /cb8f75e0-c6b5-4386-9352-37581cf2ff8d
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:36.966Z
+url: /
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:36.967Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:09:36.981Z
+url: /cb8f75e0-c6b5-4386-9352-37581cf2ff8d
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:36.988Z
+url: /60f083c8-e74f-41ad-bd6f-e4a001eb8779
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:36.996Z
+url: /fc85bd22-652c-452f-be2e-b27c81c572ba
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:09:37.019Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:37.021Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:09:37.035Z
+url: /a026ba8b-2e96-449b-919d-9e955650556c
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.041Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:09:37.047Z
+url: /efd31de8-c442-4063-ac29-f2edc0669923
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.066Z
+url: /
+query params: {}
+body: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:37.080Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:09:37.081Z
+url: /360f30e1-45e9-466d-8e36-9116c75e2108
+query params: {}
+body: {"title":"Autotest updated task","order":0,"description":"Lorem ipsum","userId":null,"boardId":"649e7202-5ab9-4d4e-b891-89aa7c592f65","columnId":null,"id":"360f30e1-45e9-466d-8e36-9116c75e2108"}
+Status code: 200
+
+
+2021-06-26T21:09:37.100Z
+url: /5c3c174e-6659-4574-bf5c-271d4558c248
+query params: {}
+body: {"id":"5c3c174e-6659-4574-bf5c-271d4558c248","title":"Autotest updated board","columns":[{"id":"173e7303-f000-4391-8f9c-3a1d45d296ac","title":"Backlog","order":1},{"id":"c6860817-e806-4c0e-a22d-6516cf45accf","title":"Sprint","order":2}]}
+Status code: 200
+
+
+2021-06-26T21:09:37.101Z
+url: /5be0a595-ad28-4730-a954-9b613eb41d44
+query params: {}
+body: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5be0a595-ad28-4730-a954-9b613eb41d44"}
+Status code: 200
+
+
+2021-06-26T21:09:37.104Z
+url: /360f30e1-45e9-466d-8e36-9116c75e2108
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.114Z
+url: /5c3c174e-6659-4574-bf5c-271d4558c248
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.121Z
+url: /5be0a595-ad28-4730-a954-9b613eb41d44
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.124Z
+url: /60f083c8-e74f-41ad-bd6f-e4a001eb8779
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.141Z
+url: /60f083c8-e74f-41ad-bd6f-e4a001eb8779
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.143Z
+url: /5be0a595-ad28-4730-a954-9b613eb41d44
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.159Z
+url: /60f083c8-e74f-41ad-bd6f-e4a001eb8779
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.169Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:09:37.176Z
+url: /649e7202-5ab9-4d4e-b891-89aa7c592f65
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:09:37.178Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:09:37.181Z
+url: /df704ca9-f6eb-486b-86df-acd126775124
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:09:37.195Z
+url: /df704ca9-f6eb-486b-86df-acd126775124
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.197Z
+url: /783960f7-e750-4e25-adb9-8f1df82828b4
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.221Z
+url: /
+query params: {}
+body: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}
+Status code: 201
+
+
+2021-06-26T21:09:37.231Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:09:37.269Z
+url: /
+query params: {}
+body: {"title":"Autotest board","columns":[{"title":"Backlog","order":1},{"title":"Sprint","order":2}]}
+Status code: 201
+
+
+2021-06-26T21:09:37.273Z
+url: /
+query params: {}
+body: {"title":"Task #3","order":3,"description":"Lorem ipsum","boardId":"618f4755-32cc-4a73-b625-1c8943cfbb0b","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:37.289Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","boardId":"618f4755-32cc-4a73-b625-1c8943cfbb0b","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:37.305Z
+url: /
+query params: {}
+body: {"title":"Task #1","order":1,"description":"Lorem ipsum","userId":"f3e97e2e-e52e-41fe-82a4-02eaa631a242","boardId":"e465b6d1-bdf9-41c1-99e4-467d92ee4666"}
+Status code: 201
+
+
+2021-06-26T21:09:37.306Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","boardId":"618f4755-32cc-4a73-b625-1c8943cfbb0b","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:37.307Z
+url: /
+query params: {}
+body: {"title":"Task #2","order":2,"description":"Lorem ipsum","userId":"f3e97e2e-e52e-41fe-82a4-02eaa631a242","boardId":"e465b6d1-bdf9-41c1-99e4-467d92ee4666"}
+Status code: 201
+
+
+2021-06-26T21:09:37.308Z
+url: /
+query params: {}
+body: {"title":"Task #4","order":4,"description":"Lorem ipsum","boardId":"618f4755-32cc-4a73-b625-1c8943cfbb0b","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:37.309Z
+url: /
+query params: {}
+body: {"title":"Task #5","order":5,"description":"Lorem ipsum","boardId":"618f4755-32cc-4a73-b625-1c8943cfbb0b","userId":null,"columnId":null}
+Status code: 201
+
+
+2021-06-26T21:09:37.351Z
+url: /f3e97e2e-e52e-41fe-82a4-02eaa631a242
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.352Z
+url: /5a2e9f46-2bf3-4a2f-9d78-9dd9c10e7729
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.355Z
+url: /bc5d770c-9d53-489e-b37f-2fea6c363acb
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.354Z
+url: /7ef8ab74-394a-45b5-a21c-eb39a06a976f
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.356Z
+url: /903394d1-17f1-4a2a-b318-4efc63efeea1
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.357Z
+url: /5179a75e-bfa0-4891-a823-b4ad8764d6a4
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.371Z
+url: /7db0559d-c891-4c89-9700-0309c96a4514
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.374Z
+url: /618f4755-32cc-4a73-b625-1c8943cfbb0b
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:09:37.400Z
+url: /b16f9a34-ce88-4bca-92a5-3dce3f0b8477
+query params: {}
+body: {}
+Status code: 200
+
+
+2021-06-26T21:09:37.412Z
+url: /7ef8ab74-394a-45b5-a21c-eb39a06a976f
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.411Z
+url: /5a2e9f46-2bf3-4a2f-9d78-9dd9c10e7729
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.412Z
+url: /bc5d770c-9d53-489e-b37f-2fea6c363acb
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.414Z
+url: /5179a75e-bfa0-4891-a823-b4ad8764d6a4
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.425Z
+url: /903394d1-17f1-4a2a-b318-4efc63efeea1
+query params: {}
+body: {}
+Status code: 404
+
+
+2021-06-26T21:09:37.426Z
+url: /7db0559d-c891-4c89-9700-0309c96a4514
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.434Z
+url: /b16f9a34-ce88-4bca-92a5-3dce3f0b8477
+query params: {}
+body: {}
+Status code: 204
+
+
+2021-06-26T21:09:37.441Z
+url: /245a7325-8f62-42a8-989e-0d5c707b7443
+query params: {}
+body: {}
+Status code: 500
+
+
+2021-06-26T21:09:37.445Z
+url: /e465b6d1-bdf9-41c1-99e4-467d92ee4666
+query params: {}
+body: {}
+Status code: 500
+
+

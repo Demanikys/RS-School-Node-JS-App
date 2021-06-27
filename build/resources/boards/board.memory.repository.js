@@ -2,6 +2,7 @@
 // import { IBoard } from '../../types';
 import { getRepository } from 'typeorm';
 import { Board } from '../../entites/board';
+import { deleteTasksWithBoard } from '../tasks/task.memory.repository';
 /**
  * getAll func return all existed boards
  * @returns {Array} array of existed boards
@@ -53,8 +54,10 @@ const updateBoardById = async (id, board) => {
 const deleteBoardById = async (id) => {
     const boardRepository = getRepository(Board);
     const deletionRes = await boardRepository.delete(id);
-    if (deletionRes.affected)
+    if (deletionRes.affected) {
+        deleteTasksWithBoard(id);
         return 'DELETED';
+    }
     return 'NOT_FOUND';
 };
 export { getAllBoards, saveBoard, getBoardById, updateBoardById, deleteBoardById, };

@@ -1,6 +1,5 @@
 import dotenv from 'dotenv';
-import { Board } from '../entites/board';
-import { Columns } from '../entites/columns';
+import { Board, Columns } from '../entites/board';
 import { Task } from '../entites/tasks';
 import { User } from '../entites/user';
 dotenv.config({

@@ -34,3 +34,359 @@ Catched uncaughtException: listen EADDRINUSE: address already in use :::4000
 Catched uncaughtException: ManyToOne is not defined
 
 
+2021-06-25T22:54:12.757Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:12.807Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:12.972Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-25T22:54:13.131Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-25T22:54:17.802Z
+Catched unhandledRejection: Empty criteria(s) are not allowed for the update method.
+
+
+2021-06-25T22:54:17.807Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:17.876Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:22.824Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-25T22:54:22.826Z
+Catched unhandledRejection: invalid input syntax for type uuid: "12345"
+
+
+2021-06-26T11:17:10.065Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T11:17:10.111Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T11:20:53.591Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:22:46.726Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:23:11.514Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:26:25.228Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:29:21.832Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:29:33.358Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:30:16.382Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:31:18.249Z
+Catched unhandledRejection: invalid input syntax for type uuid: "admin"
+
+
+2021-06-26T11:32:36.181Z
+Catched unhandledRejection: secretOrPrivateKey must have a value
+
+
+2021-06-26T11:34:09.404Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T11:38:47.489Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:41:59.107Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:41:59.173Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:41:59.269Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:43:36.711Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:43:36.751Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:43:36.765Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:47:20.650Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:47:20.652Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:47:20.658Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:49:34.141Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:50:51.746Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:51:46.763Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:53:25.846Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:53:25.888Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T20:53:25.935Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:01:51.805Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:01:51.839Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:01:51.850Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:02:42.442Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:02:42.454Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:02:42.474Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:05:32.549Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:05:32.556Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:05:32.582Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:06:24.297Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:06:24.323Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:06:24.360Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:06:24.524Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T21:06:24.719Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T21:09:36.715Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:09:36.782Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:09:36.797Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:09:36.903Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T21:09:37.121Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T21:32:10.413Z
+Catched unhandledRejection: null value in column "name" of relation "user" violates not-null constraint
+
+
+2021-06-26T21:35:23.733Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:36:13.364Z
+Catched unhandledRejection: relation "user" does not exist
+
+
+2021-06-26T21:38:30.121Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:39:46.940Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:42:55.679Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:44:24.942Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:46:55.101Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T21:48:04.363Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:06:49.576Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:07:32.985Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:08:34.021Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:10:13.726Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:10:45.220Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:10:45.358Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:10:45.481Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:10:45.605Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T22:10:45.826Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T22:14:52.256Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:14:52.388Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:14:52.491Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-26T22:14:52.615Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-26T22:14:52.814Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-27T12:09:46.792Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-27T12:09:46.865Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-27T12:09:46.931Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-27T12:09:46.997Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-27T12:09:47.149Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-27T12:10:47.050Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-27T12:10:47.128Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-27T12:10:47.202Z
+Catched unhandledRejection: Cannot set headers after they are sent to the client
+
+
+2021-06-27T12:10:47.250Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+
+2021-06-27T12:10:47.348Z
+Catched unhandledRejection: Cannot render headers after they are sent to the client
+
+

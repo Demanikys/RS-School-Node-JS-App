@@ -10,6 +10,8 @@ import userRouter from './resources/users/user.router';
 import boardRouter from './resources/boards/board.router';
 import taskRouter from './resources/tasks/task.router';
 import logger from './middlewares/logger';
+import loginRouter from './resources/login/login.router';
+import auth from './middlewares/auth';
 
 const app = express();
 
@@ -42,10 +44,11 @@ app.use((err: Error, _req: Request, res: Response, next: NextFunction) => {
   }
   next(err);
 });
+app.use('/login', loginRouter);
 
-app.use('/users', userRouter);
-app.use('/boards', boardRouter);
-app.use('/boards/:boardId/tasks', taskRouter);
+app.use('/users', auth, userRouter);
+app.use('/boards', auth, boardRouter);
+app.use('/boards/:boardId/tasks', auth, taskRouter);
 
 process.on('uncaughtException', (err) => {
   logger({ uncaughtException: err });

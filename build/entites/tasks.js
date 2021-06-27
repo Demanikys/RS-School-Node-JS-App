@@ -29,15 +29,15 @@ __decorate([
 ], Task.prototype, "description", void 0);
 __decorate([
     Column({ nullable: true }),
-    __metadata("design:type", Object)
+    __metadata("design:type", String)
 ], Task.prototype, "userId", void 0);
 __decorate([
     Column({ nullable: true }),
-    __metadata("design:type", Object)
+    __metadata("design:type", String)
 ], Task.prototype, "boardId", void 0);
 __decorate([
     Column({ nullable: true }),
-    __metadata("design:type", Object)
+    __metadata("design:type", String)
 ], Task.prototype, "columnId", void 0);
 Task = __decorate([
     Entity()

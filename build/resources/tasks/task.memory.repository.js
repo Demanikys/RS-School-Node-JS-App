@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { getRepository } from 'typeorm';
 import { Task } from '../../entites/tasks';
 /**

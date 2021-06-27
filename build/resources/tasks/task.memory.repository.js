@@ -1,33 +1,43 @@
-let tasks = [];
+import { getRepository } from 'typeorm';
+import { Task } from '../../entites/tasks';
 /**
  * getAllTasks func return array with all tasks
  * @returns {Array} array of tasks
  */
-const getAllTasks = () => tasks;
+const getAllTasks = () => {
+    const taskRepository = getRepository(Task);
+    return taskRepository.find();
+};
 /**
  * saveTask func create new task
  * @param {Object} task task which need to be created
  * @returns {Object} created task
  */
-const saveTask = (task) => {
-    tasks.push(task);
-    return task;
+const saveTask = async (task) => {
+    const taskRepository = getRepository(Task);
+    const newTask = taskRepository.create(task);
+    const savedTask = taskRepository.save(newTask);
+    return savedTask;
 };
 /**
  * getTaskById func looking for task by id and return it
  * @param {String} taskId id of task for looking
  * @returns {Object} task
  */
-const getTaskById = async (taskId) => tasks.find((item) => item.id === taskId);
+const getTaskById = async (taskId) => {
+    const taskRepository = getRepository(Task);
+    const task = await taskRepository.findOne(taskId);
+    return task;
+};
 /**
  * updateTaskById func looking for task by id and update it
  * @param {Object} task task which need to be updated including new params
  * @returns {Object} updated task
  */
 const updateTaskById = async (task) => {
-    const index = await tasks.findIndex((item) => item.id === task.id);
-    tasks[index] = task;
-    return task;
+    const taskRepository = getRepository(Task);
+    const updatedRes = await taskRepository.update(task.id, task);
+    return updatedRes.raw;
 };
 /**
  * deleteTaskById func looking for task by id and delete it
@@ -35,8 +45,11 @@ const updateTaskById = async (task) => {
  * @returns {undefined}
  */
 const deleteTaskById = async (id) => {
-    const index = await tasks.findIndex((item) => item.id === id);
-    tasks.splice(index, 1);
+    const taskRepository = getRepository(Task);
+    const deletionRes = await taskRepository.delete(id);
+    if (deletionRes.affected)
+        return 'DELETED';
+    return 'NOT_FOUND';
 };
 /**
  * deleteTasksWithBoard func is deleting all tasks which connecting with board
@@ -44,7 +57,11 @@ const deleteTaskById = async (id) => {
  * @returns {undefined}
  */
 const deleteTasksWithBoard = async (id) => {
-    tasks = await tasks.filter((item) => item.boardId !== id);
+    const taskRepository = getRepository(Task);
+    const deletionRes = await taskRepository.delete({ boardId: id });
+    if (deletionRes.affected)
+        return 'DELETED';
+    return 'NOT_FOUND';
 };
 /**
  * updateTaskInUserDelete func is clearing all tasks from deleted user
@@ -52,13 +69,8 @@ const deleteTasksWithBoard = async (id) => {
  * @returns {undefined}
  */
 const updateTaskInUserDelete = async (id) => {
-    tasks = await tasks.map((item) => {
-        if (item.userId === id) {
-            const task = item;
-            task.userId = null;
-            return task;
-        }
-        return item;
-    });
+    const taskRepository = getRepository(Task);
+    const updateRes = await taskRepository.update({ userId: id }, { userId: null });
+    return updateRes.raw;
 };
 export { getAllTasks, saveTask, getTaskById, updateTaskById, deleteTaskById, deleteTasksWithBoard, updateTaskInUserDelete, };

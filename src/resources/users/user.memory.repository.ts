@@ -1,22 +1,28 @@
-import { updateTaskInUserDelete } from '../tasks/task.service';
-import { IUser } from '../../types';
-
-const users: Array<IUser> = [];
+// @ts-nocheck
+import { getRepository } from 'typeorm';
+import { User } from '../../entites/user';
+import { updateTaskInUserDelete } from '../tasks/task.memory.repository';
 
 /**
  * getAll func returns all users in base
  * @returns {Array} array of users
  */
-const getAllUsers = (): Array<IUser> => users;
+const getAllUsers = async (): Promise<User[]> => {
+  const userRepository = getRepository(User);
+  return userRepository.find();
+};
 
 /**
  * saveUser func create new user in base
  * @param {Object} user user which need to be created
  * @returns {Object} created user
  */
-const saveUser = (user: IUser) => {
-  users.push(user);
-  return user;
+const saveUser = async (user: User) => {
+  const userRepository = getRepository(User);
+  const newUser = userRepository.create(user);
+  const savedUser = userRepository.save(newUser);
+
+  return savedUser;
 };
 
 /**
@@ -24,9 +30,11 @@ const saveUser = (user: IUser) => {
  * @param {String} id id of user
  * @returns {Object} user
  */
-const getUserById = async (id: string) => {
-  const user = await users.find((item) => item.id === id);
-  return user;
+const getUserById = async (id: string): Promise<User> => {
+  const userRepository = getRepository(User);
+  const res = await userRepository.findOne(id);
+  if (!res) return 'NOT_FOUND';
+  return res;
 };
 
 /**
@@ -34,10 +42,13 @@ const getUserById = async (id: string) => {
  * @param {Object} user user which should be update
  * @returns {Object} updated user
  */
-const updateUserById = async (user: IUser) => {
-  const index = await users.findIndex((item) => item.id === user.id);
-  users[index] = user;
-  return user;
+const updateUserById = async (user: User): Promise<User | 'NOT_FOUND'> => {
+  const userRepository = getRepository(User);
+  const res = await userRepository.findOne(user.id);
+
+  if (res === undefined) return 'NOT_FOUND';
+  const updateRes = await userRepository.update(user.id, user);
+  return updateRes.raw;
 };
 
 /**
@@ -45,10 +56,15 @@ const updateUserById = async (user: IUser) => {
  * @param {string} id id of user
  * @returns {undefined}
  */
-const deleteUserById = async (id: string) => {
-  const index = await users.findIndex((item) => item.id === id);
-  users.splice(index, 1);
-  updateTaskInUserDelete(id);
+const deleteUserById = async (id: string): Promise<'DELETED' | 'NOT_FOUND'> => {
+  const userRepository = getRepository(User);
+  const deletionRes = await userRepository.delete(id);
+
+  if (deletionRes.affected) {
+    await updateTaskInUserDelete(id);
+    return 'DELETED';
+  }
+  return 'NOT_FOUND';
 };
 
 export {

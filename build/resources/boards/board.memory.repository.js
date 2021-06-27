@@ -1,18 +1,25 @@
-import { deleteTasksWithBoard } from '../tasks/task.service';
-const boards = [];
+// import { deleteTasksWithBoard } from '../tasks/task.service';
+// import { IBoard } from '../../types';
+import { getRepository } from 'typeorm';
+import { Board } from '../../entites/board';
 /**
  * getAll func return all existed boards
  * @returns {Array} array of existed boards
  */
-const getAllBoards = () => boards;
+const getAllBoards = () => {
+    const boardRepository = getRepository(Board);
+    return boardRepository.find();
+};
 /**
  * saveBoard func create new board
  * @param {Object} board board which need to be created
  * @returns {Object} created board
  */
 const saveBoard = (board) => {
-    boards.push(board);
-    return board;
+    const boardRepository = getRepository(Board);
+    const newBoard = boardRepository.create(board);
+    const savedBoard = boardRepository.save(newBoard);
+    return savedBoard;
 };
 /**
  * getBoardById func find and return board by id
@@ -20,7 +27,8 @@ const saveBoard = (board) => {
  * @returns {Object} found board as Object
  */
 const getBoardById = async (id) => {
-    const board = await boards.find((item) => item.id === id);
+    const boardRepository = getRepository(Board);
+    const board = await boardRepository.findOne(id);
     return board;
 };
 /**
@@ -28,10 +36,14 @@ const getBoardById = async (id) => {
  * @param {Object} board board which should be updated
  * @returns {Object} updated board
  */
-const updateBoardById = async (board) => {
-    const index = await boards.findIndex((item) => item.id === board.id);
-    boards[index] = board;
-    return board;
+const updateBoardById = async (id, board) => {
+    const boardRepository = getRepository(Board);
+    const res = await boardRepository.findOne(id);
+    const newBoard = { ...res, ...board };
+    if (res === undefined)
+        return 'NOT_FOUND';
+    const updateRes = await boardRepository.save(newBoard);
+    return updateRes;
 };
 /**
  * deleteBoardById func is looking for board by id and delete it with all tasks on it
@@ -39,8 +51,10 @@ const updateBoardById = async (board) => {
  * @returns {undefined}
  */
 const deleteBoardById = async (id) => {
-    const index = await boards.findIndex((item) => item.id === id);
-    boards.splice(index, 1);
-    deleteTasksWithBoard(id);
+    const boardRepository = getRepository(Board);
+    const deletionRes = await boardRepository.delete(id);
+    if (deletionRes.affected)
+        return 'DELETED';
+    return 'NOT_FOUND';
 };
 export { getAllBoards, saveBoard, getBoardById, updateBoardById, deleteBoardById, };

@@ -1,10 +1,10 @@
 import * as boardsRepo from './board.memory.repository';
-import { IBoard } from '../../types';
+import { Board } from '../../entites/board';
 
 const getAll = () => boardsRepo.getAllBoards();
-const saveBoard = (board: IBoard) => boardsRepo.saveBoard(board);
+const saveBoard = (board: Board) => boardsRepo.saveBoard(board);
 const getBoardById = (id: string) => boardsRepo.getBoardById(id);
-const updateBoardById = (board: IBoard) => boardsRepo.updateBoardById(board);
+const updateBoardById = (id: string, board: Board) => boardsRepo.updateBoardById(id, board);
 const deleteBoardById = (id: string) => boardsRepo.deleteBoardById(id);
 
 export {

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import Board from './board.model';
+// import {Board} from '../../entites/board';
 import * as boardsService from './board.service';
 const router = Router();
 router.route('/').get(async (_, res) => {
@@ -8,7 +8,7 @@ router.route('/').get(async (_, res) => {
     res.end();
 });
 router.post('/', async (req, res) => {
-    const board = await boardsService.saveBoard(new Board(req.body));
+    const board = await boardsService.saveBoard(req.body);
     res.status(201).json(board);
 });
 router.get('/:boardId', async (req, res) => {
@@ -21,13 +21,14 @@ router.get('/:boardId', async (req, res) => {
     res.status(200).json(board);
 });
 router.put('/:boardId', async (req, res) => {
-    const board = await boardsService.updateBoardById(req.body);
+    const board = await boardsService.updateBoardById(req.params.boardId, req.body);
     res.status(200).json(board);
 });
 router.delete('/:boardId', async (req, res) => {
     if (req.params.boardId) {
         await boardsService.deleteBoardById(req.params.boardId);
+        res.status(204).end();
     }
-    res.status(204).end();
+    res.status(500).end();
 });
 export default router;

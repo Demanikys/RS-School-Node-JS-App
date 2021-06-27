@@ -15,14 +15,14 @@ export interface ITask {
   columnId?: string | null
 }
 
-export interface IBoard {
-  id: string;
-  title: string;
-  columns: IColumn[];
-}
+// export interface IBoard {
+//   id: string;
+//   title: string;
+//   columns: IColumn[];
+// }
 
-export interface IColumn {
-  id: string;
-  title: string;
-  order: number;
-}
+// export interface IColumn {
+//   id: string;
+//   title: string;
+//   order: number;
+// }

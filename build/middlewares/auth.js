@@ -10,8 +10,7 @@ const auth = (req, res, next) => {
         }
         else {
             try {
-                const result = jwt.verify(token, process.env['VERY_SECRET_KEY']);
-                console.log(result);
+                jwt.verify(token, process.env['VERY_SECRET_KEY']);
                 return next();
             }
             catch (error) {

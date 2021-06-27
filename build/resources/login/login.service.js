@@ -13,7 +13,6 @@ const createAdmin = async () => {
         const hash = bcrypt.hashSync(admin.password, 10);
         admin.password = hash;
         const newUser = await userRepository.create(admin);
-        console.log(newUser);
         await userRepository.save(newUser);
     }
 };

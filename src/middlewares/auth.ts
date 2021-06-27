@@ -13,8 +13,7 @@ const auth = (req: Request, res: Response, next: NextFunction) => {
       res.status(401).send('Unauthorized');
     } else {
       try {
-        const result = jwt.verify(token!, process.env['VERY_SECRET_KEY']!);
-        console.log(result);
+        jwt.verify(token!, process.env['VERY_SECRET_KEY']!);
         return next();
       } catch (error) {
         res.status(401).send('Unauthorized');
